@@ -14,8 +14,8 @@ source $ZSH/oh-my-zsh.sh
 # History settings
 # -----------------------
 HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=10000000
+SAVEHIST=10000000
 setopt APPEND_HISTORY       # Append history instead of overwriting
 setopt SHARE_HISTORY        # Share history between sessions
 setopt HIST_IGNORE_DUPS     # Ignore duplicate commands
